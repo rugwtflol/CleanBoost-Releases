@@ -1,6 +1,6 @@
 {
-    "version":  "1.6.0",
-    "downloadUrl":  "https://github.com/rugwtflol/CleanBoost-Releases/releases/download/v1.6.0/CleanBoostPro-Setup-1.6.0.exe",
-    "sha256":  "80031F0FE8D014A04DB50D345F8B9D22D2676677B8F02416E8E40D3C563BB7FC",
-    "releaseNotes":  "CleanBoost Pro 1.6.0 adds reversible gaming profiles, protected Game Sessions, verified Technician tools, Windows repair workflows, and dashboard polish."
+    "version":  "1.6.1",
+    "downloadUrl":  "https://github.com/rugwtflol/CleanBoost-Releases/releases/download/v1.6.1/CleanBoostPro-Setup-1.6.1.exe",
+    "sha256":  "F94AD08EE18717067B2BF9DE8103DD8BC62DBC5E87394D81F0FA259285D5521A",
+    "releaseNotes":  "CleanBoost Pro 1.6.1 is digitally signed and timestamped. This patch adds Microsoft Artifact Signing and mandatory signature, timestamp, policy, and hash verification to the release pipeline."
 }
