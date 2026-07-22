@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d1117" />
+  <title>CleanBoost Pro Demo</title>
+  <style>
+    :root{--bg:#090c12;--panel:#111722;--panel2:#161e2b;--text:#f5f7fb;--muted:#9ca8ba;--accent:#65f2a6;--accent2:#6fa8ff;--warn:#ffcc66;--danger:#ff7d7d;--line:#253044;--shadow:0 20px 60px rgba(0,0,0,.38)}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 20% 0%,#182235 0,#090c12 38%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:100vh}
+    button{font:inherit}.wrap{max-width:1100px;margin:auto;padding:18px}.topbar{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:18px}.brand{display:flex;align-items:center;gap:12px}.logo{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#071015;font-weight:900;box-shadow:var(--shadow)}.brand h1{font-size:20px;margin:0}.brand p{margin:2px 0 0;color:var(--muted);font-size:12px}.badge{padding:7px 10px;border:1px solid #2d8d5d;background:#103423;border-radius:999px;color:#9effc7;font-weight:700;font-size:12px}
+    .shell{display:grid;grid-template-columns:230px 1fr;gap:16px}.sidebar,.main{background:rgba(17,23,34,.92);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}.sidebar{padding:14px;height:max-content}.nav{display:grid;gap:8px}.nav button{border:0;background:transparent;color:var(--muted);text-align:left;padding:13px 14px;border-radius:13px;cursor:pointer}.nav button.active{background:#1b2637;color:white}.notice{margin-top:14px;padding:13px;border-radius:14px;background:#0e2d20;border:1px solid #235d45;color:#b9f7d2;font-size:12px;line-height:1.45}.main{padding:18px;min-height:640px}.hero{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:16px}.hero h2{font-size:28px;margin:0 0 6px}.hero p{margin:0;color:var(--muted);line-height:1.5}.status{padding:10px 12px;border-radius:12px;background:#152131;color:#a9c9ff;font-size:12px;white-space:nowrap}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.card{background:linear-gradient(180deg,var(--panel2),#111722);border:1px solid var(--line);border-radius:17px;padding:16px}.metric{font-size:28px;font-weight:800;margin-top:8px}.label{color:var(--muted);font-size:12px}.section{margin-top:16px}.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.section-head h3{margin:0;font-size:17px}.primary,.secondary,.danger{border:0;border-radius:12px;padding:12px 15px;font-weight:800;cursor:pointer}.primary{background:linear-gradient(135deg,var(--accent),#4ed58f);color:#07140f}.secondary{background:#202b3d;color:#eaf0fa;border:1px solid #334158}.danger{background:#3a1d24;color:#ffb7bd;border:1px solid #71323d}.primary:disabled{opacity:.45;cursor:not-allowed}.list{display:grid;gap:10px}.item{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px;border-radius:14px;border:1px solid var(--line);background:#121925}.item-left{display:flex;gap:12px;align-items:flex-start}.icon{width:36px;height:36px;border-radius:11px;background:#1d2a3e;display:grid;place-items:center}.item h4{margin:0 0 4px;font-size:14px}.item p{margin:0;color:var(--muted);font-size:12px;line-height:1.4}.tag{font-size:11px;padding:6px 8px;border-radius:999px;background:#1b352b;color:#9ef2bd;border:1px solid #2f664c}.tag.warn{background:#3a301a;color:#ffd98b;border-color:#6e5927}.toggle{width:48px;height:28px;border-radius:999px;background:#283449;position:relative;cursor:pointer;flex:0 0 auto}.toggle:after{content:"";position:absolute;top:4px;left:4px;width:20px;height:20px;border-radius:50%;background:white;transition:.2s}.toggle.on{background:#2dc77b}.toggle.on:after{left:24px}.progress{height:10px;background:#202a3a;border-radius:999px;overflow:hidden}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .35s}.log{min-height:180px;background:#090d14;border:1px solid #202a39;border-radius:14px;padding:14px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;line-height:1.7;color:#b7c4d8;white-space:pre-wrap}.hidden{display:none!important}.footer{margin-top:14px;color:var(--muted);font-size:11px;line-height:1.5;text-align:center}
+    @media(max-width:760px){.wrap{padding:12px}.shell{grid-template-columns:1fr}.sidebar{padding:8px}.nav{grid-template-columns:repeat(4,1fr)}.nav button{text-align:center;padding:10px 4px;font-size:11px}.notice{display:none}.main{padding:14px;min-height:0}.hero{display:block}.status{display:inline-block;margin-top:10px}.grid{grid-template-columns:1fr}.hero h2{font-size:23px}.item{align-items:flex-start}.topbar{align-items:flex-start}.badge{font-size:10px}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand"><div class="logo">CB</div><div><h1>CleanBoost Pro</h1><p>Safe. Transparent. Reversible.</p></div></div>
+    <div class="badge">INTERACTIVE PRODUCT DEMO</div>
+  </div>
+
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="nav">
+        <button class="active" data-page="dashboard">Dashboard</button>
+        <button data-page="optimize">Optimize</button>
+        <button data-page="history">Fix History</button>
+        <button data-page="restore">Restore</button>
+      </div>
+      <div class="notice"><strong>Demo mode</strong><br>No device settings are changed. This web preview demonstrates the workflow of the Windows application.</div>
+    </aside>
+
+    <main class="main">
+      <section id="dashboard" class="page">
+        <div class="hero"><div><h2>Your PC, under control.</h2><p>Review supported recommendations, create a backup, and apply only the adjustments you approve.</p></div><div class="status">Protection status: Ready</div></div>
+        <div class="grid">
+          <div class="card"><div class="label">System health</div><div class="metric">92%</div><div class="label">No critical issues detected</div></div>
+          <div class="card"><div class="label">Recommended actions</div><div class="metric">4</div><div class="label">All changes are reviewable</div></div>
+          <div class="card"><div class="label">Last backup</div><div class="metric" style="font-size:22px">Today</div><div class="label">Restore data available</div></div>
+        </div>
+        <div class="section"><div class="section-head"><h3>Quick assessment</h3><button class="primary" id="scanBtn">Run system scan</button></div><div class="card"><div class="progress"><div class="bar" id="scanBar"></div></div><p id="scanText" style="color:var(--muted);margin:12px 0 0">Ready to inspect supported Windows settings.</p></div></div>
+      </section>
+
+      <section id="optimize" class="page hidden">
+        <div class="hero"><div><h2>Review recommendations</h2><p>Nothing is applied automatically. Select only the supported adjustments you want.</p></div><div class="status">4 safe actions available</div></div>
+        <div class="list" id="tweakList">
+          <div class="item"><div class="item-left"><div class="icon">⚡</div><div><h4>Balanced startup cleanup</h4><p>Review non-essential startup entries without removing core Windows services.</p></div></div><div class="toggle on"></div></div>
+          <div class="item"><div class="item-left"><div class="icon">🛡️</div><div><h4>Create restore checkpoint</h4><p>Create recovery data before supported changes are applied.</p></div></div><div class="toggle on"></div></div>
+          <div class="item"><div class="item-left"><div class="icon">🧹</div><div><h4>Temporary file cleanup</h4><p>Remove eligible temporary files while preserving personal documents.</p></div></div><div class="toggle on"></div></div>
+          <div class="item"><div class="item-left"><div class="icon">🎮</div><div><h4>Gaming responsiveness profile</h4><p>Apply documented, reversible Windows responsiveness preferences.</p></div></div><div class="toggle on"></div></div>
+        </div>
+        <div class="section"><button class="primary" id="applyBtn">Create backup & apply selected</button></div>
+        <div class="section hidden" id="applyPanel"><div class="log" id="applyLog"></div></div>
+      </section>
+
+      <section id="history" class="page hidden">
+        <div class="hero"><div><h2>Fix History</h2><p>A clear record of completed actions and available recovery points.</p></div></div>
+        <div class="list" id="historyList">
+          <div class="item"><div><h4>System assessment completed</h4><p>Today · No changes made</p></div><span class="tag">Verified</span></div>
+          <div class="item"><div><h4>Restore checkpoint created</h4><p>Demo recovery point · Available</p></div><span class="tag">Protected</span></div>
+          <div class="item"><div><h4>Selected optimizations</h4><p>4 documented actions · Demo simulation</p></div><span class="tag warn">Demo</span></div>
+        </div>
+      </section>
+
+      <section id="restore" class="page hidden">
+        <div class="hero"><div><h2>Restore supported changes</h2><p>Use the recorded checkpoint to reverse eligible adjustments.</p></div><div class="status">Recovery point available</div></div>
+        <div class="card"><h3 style="margin-top:0">CleanBoost checkpoint</h3><p style="color:var(--muted);line-height:1.55">Created before the latest optimization session. Personal files are not affected.</p><button class="danger" id="restoreBtn">Simulate restore</button><p id="restoreText" style="color:var(--muted);margin-bottom:0"></p></div>
+      </section>
+
+      <div class="footer">This is a non-functional web demonstration of CleanBoost Pro. The production Windows application performs only supported actions approved by the user and maintains recovery information for reversible changes.</div>
+    </main>
+  </div>
+</div>
+<script>
+  const pages=[...document.querySelectorAll('.page')];
+  document.querySelectorAll('.nav button').forEach(btn=>btn.onclick=()=>{document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');pages.forEach(p=>p.classList.add('hidden'));document.getElementById(btn.dataset.page).classList.remove('hidden');});
+  document.querySelectorAll('.toggle').forEach(t=>t.onclick=()=>t.classList.toggle('on'));
+  const wait=ms=>new Promise(r=>setTimeout(r,ms));
+  document.getElementById('scanBtn').onclick=async e=>{e.target.disabled=true;const bar=document.getElementById('scanBar'),txt=document.getElementById('scanText');for(const [w,t] of [[20,'Checking supported system settings…'],[45,'Reviewing startup configuration…'],[68,'Checking recovery readiness…'],[88,'Preparing recommendations…'],[100,'Scan complete — 4 safe recommendations found.']]){bar.style.width=w+'%';txt.textContent=t;await wait(550)}e.target.textContent='Scan complete'};
+  document.getElementById('applyBtn').onclick=async e=>{e.target.disabled=true;document.getElementById('applyPanel').classList.remove('hidden');const log=document.getElementById('applyLog');const lines=['[1/5] Validating selected actions…','[2/5] Creating restore checkpoint…','[3/5] Recording original settings…','[4/5] Applying approved adjustments…','[5/5] Verifying results…','✓ Completed successfully. All actions were recorded in Fix History.'];log.textContent='';for(const line of lines){log.textContent+=line+'\n';await wait(700)}e.target.textContent='Completed'};
+  document.getElementById('restoreBtn').onclick=async e=>{e.target.disabled=true;const t=document.getElementById('restoreText');t.textContent='Restoring documented settings…';await wait(1300);t.textContent='Restore simulation complete. Original supported settings have been recovered.';e.target.textContent='Restore complete'};
+</script>
+</body>
+</html>
